@@ -70,6 +70,11 @@
     
     dispatch_group_async(group, queue, ^{
         
+        NSLog(@"下载电影1: xxx.avi");
+        
+    });
+    dispatch_group_async(group, queue, ^{
+        
         NSLog(@"下载电影2: xxx.avi");
         
     });
